@@ -1,10 +1,15 @@
 import Lake
 open Lake DSL
 
-package «nabla_proof» where
-  -- 設定編譯選項，關閉自動隱式變數以確保語法嚴謹
+package «nabla-field-annihilation» where
+  -- Project Metadata
+  version := "1.0.0"
+  keywords := #["math.CO", "combinatorics", "boolean-hypercube", "nabla-field"]
+  
+  -- Lake Configuration
   leanOptions := #[
-    ⟨`autoImplicit, false⟩
+    ⟨`pp.unicode.fun, true⟩, -- pretty-prints 'λ' as 'λ'
+    ⟨`autoImplicit, false⟩  -- forces explicit variable declarations for proof safety
   ]
 
 -- 引入 Palomar 自動化建置所需的 Mathlib 依賴庫
