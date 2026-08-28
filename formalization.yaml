@@ -1,0 +1,37 @@
+version: "1.0"
+project:
+  title: "Formalization of Higher-Dimensional Nabla Field Identity"
+  topic: "Combinatorics and Discrete Calculus"
+  authors:
+    - name: "Dominic Shum"
+      affiliation: "Independent Researcher in Computational Complexity"
+
+informal_description: >
+  This project formally proves the higher-dimensional Nabla field identity in Lean 4.
+  It verifies that applying an n-th order discrete Nabla operator over an n-dimensional
+  Boolean hypercube result in complete phase cancellation (-1)^(n-|S|) for all lower-order
+  polynomial fields (k < n), cleanly isolating the highest-order (k = n) resonance signal.
+  The proof relies on mutual induction and Vandermonde's identity.
+
+technical_details:
+  lean_version: "leanprover/lean4:v4.8.0"
+  dependencies:
+    - name: "Mathlib"
+      version: "main"
+
+files:
+  challenge: "Challenge.lean"
+  solution: "Solution.lean"
+
+disclosures:
+  ai_usage:
+    category: "hybrid" # Options: human | ai | hybrid
+    statement: >
+      The core theoretical framework, high-dimensional parity mapping, and inductive strategy 
+      were conceptualized and designed entirely by the human author (Dominic Shum). 
+      AI language models (LLM/Lean 4 agents) were employed as interactive assistants to aid in 
+      tactic lookup, solving intermediate algebraic lemmas, and streamlining Lean 4 syntax boilerplate. 
+      All generated proofs have been fully verified by the Lean 4 kernel and reviewed by the author.
+  axioms_used:
+    standard_only: true
+    custom_axioms: []
