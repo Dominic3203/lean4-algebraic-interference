@@ -1,0 +1,21 @@
+{
+  "version": "1.0",
+  "challenge_file": "Challenge.lean",
+  "solution_file": "Solution.lean",
+  "targets": [
+    {
+      "challenge_symbol": "nabla_field_annihilation",
+      "solution_symbol": "nabla_field_annihilation"
+    }
+  ],
+  "verification": {
+    "allow_sorry": false,
+    "max_heartbeats": 200000,
+    "timeout_seconds": 300,
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ]
+  }
+}
