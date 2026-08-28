@@ -1,32 +1,32 @@
 version: "1.0"
 
-project:
-  name: "nabla-field-annihilation"
-  description: "Formal proof of higher-dimensional Nabla field annihilation over Boolean hypercube in Lean 4."
-  license: "MIT"
-  responsible_maintainers:
-    - "Dominic Shum"
+title: "Formalization of Higher-Dimensional Nabla Field Identity"
+informal_description: >
+  Formal proof of higher-dimensional Nabla field annihilation over Boolean hypercube in Lean 4.
+  It verifies that applying an n-th order discrete Nabla operator results in complete phase 
+  cancellation for all lower-order polynomial fields, isolating the highest-order resonance signal.
 
-classification:
-  arxiv:
-    - "math.CO"
+authors:
+  - name: "Dominic Shum"
+    affiliation: "Independent Researcher"
 
-sources:
-  - type: "original-proof"
-    description: "Original proof by Dominic Shum using mutual induction and parity cancellation."
+technical_details:
+  lean_version: "leanprover/lean4:v4.8.0" # 請填寫你 lakefile.lean 實際使用的 Lean 版本
+  dependencies:
+    - name: "Mathlib"
+      version: "main"
 
-automation:
-  methods:
-    - "interactive"
-    - "LLM-assisted"
-
-review:
-  status: "author-reviewed"
+files:
+  challenge: "Challenge.lean"  # 你的定理陳述檔案路徑
+  solution: "Solution.lean"   # 你的證明檔案路徑
 
 disclosures:
   ai_usage:
-    category: "hybrid"
+    category: "hybrid" # 選項可為: human | ai | hybrid
     statement: >
       The core theoretical framework and mathematical proof design were conceptualized 
       by Dominic Shum. AI language models were used as interactive assistants to suggest Lean tactics 
       and assist with syntax boilerplate.
+  axioms_used:
+    standard_only: true
+    custom_axioms: []
