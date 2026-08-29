@@ -2,6 +2,6 @@
   "version": "1.2.0",
   "packagesDir": ".lake/packages",
   "packages": [],
-  "name": "nabla-field-annihilation",
+  "name": "nabla_field_annihilation",
   "lakeDir": ".lake"
 }
