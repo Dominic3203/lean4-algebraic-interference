@@ -15,12 +15,13 @@ classification:
 
 sources:
   - type: "original-proof"
+    title: "Higher-Dimensional Nabla Field Annihilation"
+    relationship: "other"
     description: "Original proof by Dominic Shum using mutual induction and parity cancellation."
 
 automation:
   methods:
-    - "interactive"
-    - "LLM-assisted"
+    - "Interactive theorem proving in Lean 4 with LLM-assisted tactic discovery and syntax completion"
 
 review:
   status: "author-reviewed"
