@@ -1,7 +1,7 @@
 import Lake
 open Lake DSL
 
-package «nabla-field-annihilation» where
+package «nabla_field_annihilation» where
   -- Project Metadata
   keywords := #["math.CO", "combinatorics", "boolean-hypercube", "nabla-field"]
   
