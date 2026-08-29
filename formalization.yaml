@@ -1,7 +1,7 @@
 version: "1.0"
 
 project:
-  name: "nabla-field-annihilation"
+  name: "nabla_field_annihilation"
   description: "Formal proof of higher-dimensional Nabla field annihilation over Boolean hypercube in Lean 4."
   authors:
     - "Dominic Shum"
