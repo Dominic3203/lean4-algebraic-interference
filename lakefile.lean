@@ -3,7 +3,6 @@ open Lake DSL
 
 package «nabla-field-annihilation» where
   -- Project Metadata
-  version := "1.0.0"
   keywords := #["math.CO", "combinatorics", "boolean-hypercube", "nabla-field"]
   
   -- Lake Configuration
