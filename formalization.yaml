@@ -45,8 +45,7 @@ disclosures:
     category: "hybrid"
     statement: >
       The core theoretical framework and mathematical proof design were conceptualized 
-      by Dominic Shum. AI language models were used as interactive assistants to suggest Lean tactics 
-      and assist with syntax boilerplate.
+      by Dominic Shum. AI language models were used as interactive assistants to suggest Lean tactics and assist with syntax boilerplate.
   axioms_used:
     standard_only: true
     custom_axioms: []
